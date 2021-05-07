@@ -1,0 +1,13 @@
+We all know the syntax of a regular Javascript function.
+
+function myName(name) {
+   return name;
+};
+
+What do we know about arrow functions.
+1. We know arrow functions have a more concise and legible syntax, as opposed to a regular Javascript function.
+2. The biggest difference is the scoping of "this" as it relates to arrow functions.
+3. Arrow functions use the "this" keyword differently.
+4. "this" does not get redefined in an arrow function. It gets defined in the same scope that you call the function in. 
+As opposed to regular functions that redefines the "this" keyword.
+5. The scope of this in an arrow function, is similar to how other programming languages work. 
